@@ -1,6 +1,6 @@
 <h1>Best restaurants</h1>
 
-<ul>
+<ul id="restaurants-list">
   <% @restaurants.each do |restaurant| %>
     <li><%= link_to restaurant.name, restaurant_path(restaurant) %> (<%= restaurant.rating %>/5)</li>
   <% end %>

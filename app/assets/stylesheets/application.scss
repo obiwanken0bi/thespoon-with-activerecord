@@ -1,1 +1,32 @@
 @import "bootstrap/scss/bootstrap";
+
+.container {
+  text-align: center;
+}
+
+// Index
+#restaurants-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+// Forms
+.simple_form {
+  text-align: left;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+
+  input[type='submit'] {
+    margin: auto;
+  }
+}
+
+// Show
+.bottom-links {
+  margin-top: 24px;
+
+  .buttons {
+    margin-bottom: 12px;;
+  }
+}
